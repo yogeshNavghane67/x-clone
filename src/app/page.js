@@ -1,6 +1,6 @@
 
 export default function page() {
   return (
-    <div className="text-red-500">Yogesh Navghane</div>
+    <div className="text-red-500">Home page</div>
   )
 }
