@@ -9,7 +9,7 @@ export default function Sidebar() {
   const { data: session } = useSession();
   console.log(session);
   return (
-    <div className='flex flex-col p-3 justify-between h-screen'>
+    <div className='flex flex-col p-3 justify-between h-screen pr-4'>
       <div className='flex flex-col gap-4 '>
         <Link href='/'>
           <FaXTwitter className='w-16 h-16 cursor-pointer p-3 hover:bg-gray-100 rounded-full transition-all duration-200 ' />
